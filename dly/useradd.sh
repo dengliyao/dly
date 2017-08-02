@@ -5,7 +5,7 @@ user_ldif=/ldap_user.ldif
 group_ldif=/ldap_group.ldif
 mig_user=/usr/share/migrationtools/migrate_passwd.pl
 mig_group=/usr/share/migrationtools/migrate_group.pl
-rootdn="cn=admin,dc=example,dc=org"
+rootdn="cn=Manager,dc=example,dc=org"
 rootpw=redhat
 
 #添加用户脚本，用for则需要在netwuser.txt文件里添加用户，如果用while为交互式
